@@ -13,18 +13,18 @@
   font-weight: 700
   .idiomas
     @include flex(row,flex-start,center,0)
-    width: 100%
-    cursor: pointer
-    padding: 6px 9px
-    height: 42px
-    outline: 0
-    border: 0
-    border-radius: 0
-    background: #0a0909
-    color: #ffffff
-    font-size: 2em
-    color: #999
-    border: 2px solid rgba(0,0,0,0.9)
-    border-radius: 12px
-    position: relative
-    transition: all 0.25s ease
+    background: rgba(255, 255, 255, 0.1)
+    backdrop-filter: blur(10px)
+    border: 1px solid rgba(255, 255, 255, 1)
+    width: min(100%,240px)
+    padding: 6px
+    background-image: url(languages.svg)
+    background-repeat: no-repeat
+    background-size: 18px
+    border-radius: 5px
+    /*background-position: calc(100% - 12px) center;*/
+    background-position:0%
+    outline: none
+    
+    
+    
