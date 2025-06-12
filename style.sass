@@ -3,7 +3,7 @@
 
 .nav
   @include flex(row,space-around, center,10px)
-  background: rgba(54, 54, 54, 0.6)
+  /*background: rgba(54, 54, 54, 0.6)
   backdrop-filter: blur(10px)
   position: fixed
   top: 0
@@ -23,8 +23,15 @@
     background-size: 18px
     border-radius: 5px
     /*background-position: calc(100% - 12px) center;*/
-    background-position:0%
+    background-position: 0%
     outline: none
-    
-    
-    
+
+.centro
+  min-height: 70vh
+  @include flex(column,space-between,center,0)
+  padding-top: 200px
+  /*background-image: url("./images/fondo.jpg")*///R
+  background-image: url("./pictures/home_a_hero_d.webp")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
