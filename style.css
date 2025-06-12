@@ -49,9 +49,14 @@
   align-items: center;
   gap: 0;
   padding-top: 200px;
-  /*background-image: url("./images/fondo.jpg")*/
-  background-image: url("./images/fondo.jpg");
+  background-image: url("./pictures/fondo.jpg");
+  opacity: 0.9;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #F8F8F8;
+}
+.centro h1 {
+  font-size: 5rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
