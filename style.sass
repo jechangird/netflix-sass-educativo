@@ -4,13 +4,14 @@
 .nav
   @include flex(row,space-around, center,10px)
   /*background: rgba(54, 54, 54, 0.6)
-  backdrop-filter: blur(10px)
+  /*backdrop-filter: blur(10px)*/
   position: fixed
   top: 0
   width: 100vw
   z-index: 100
   font-size: 10px
   font-weight: 700
+  
   .idiomas
     @include flex(row,flex-start,center,0)
     background: rgba(255, 255, 255, 0.1)
@@ -31,12 +32,29 @@
   @include flex(column,space-between,center,0)
   padding-top: 200px
   background-image: url("./pictures/fondo.jpg")
-  opacity: 0.9
+  filter: brightness(0.2)
   background-size: cover
   background-position: center
   background-repeat: no-repeat
   color: $color-fondo
-  h1
-    font-size: 5rem
-    font-weight: 700
+h1
+  font-size: 5rem
+  font-weight: 700
+ 
+ 
+  
+  /*opacity: 0.9*/
+  
+
+  
+  
+
+  
     
+    
+
+.linea
+  background: linear-gradient(90deg,transparent 0%,#ff2323 40%,#ff4545 50%,#ff2323 60%,transparent 100%)
+
+head
+ 
